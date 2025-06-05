@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Confirmar Cita</title>
+</head>
+<body>
+  <h2>¿Confirmas la cita para este sábado a las 6PM?</h2>
+
+  <form action="https://formspree.io/f/xdkzkvky" method="POST">
+    <label>Tu respuesta:</label><br>
+    <input type="radio" name="respuesta" value="Sí"> Sí 💖<br>
+    <input type="radio" name="respuesta" value="No"> No 😢<br><br>
+    <input type="submit" value="Enviar">
+  </form>
+</body>
+</html>
